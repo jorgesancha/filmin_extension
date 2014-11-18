@@ -1,8 +1,8 @@
 # Rotten Tomatoes Ratings in filmin.es. A chrome extension.
 
-I'm a fan of [filmin.es](filmin.es), but [I decide what movies to watch](http://jorgesancha.ghost.io) based on rotten tomatoes ratings. This extension uses the rotten tomatoes API to extract their ratings and includes them on the filmin title page for each movie.
+I'm a fan of [filmin.es](filmin.es), but [I decide what movies to watch](http://jorgesancha.ghost.io) based on rotten tomatoes ratings. This extension uses the rotten tomatoes API to extract their ratings and includes them on the filmin title page for each movie. Here is how it looks (that tomato isn't normally there)
 
-
+![you_say_tomato](https://raw.githubusercontent.com/jorgesancha/filmin_extension/master/sample.png)
 
 ## How to install
 
