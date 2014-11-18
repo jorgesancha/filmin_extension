@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rotten Tomatoes Rating for films on Filmin",
+  "description": "This extension tries to show the Rotten Tomatoes rating for any film on filmin.es",
+  "version": "1.0",
+  "content_scripts": [
+     {
+       "matches": ["https://www.filmin.es/pelicula/*"],
+       "css": ["filmin.css"],
+       "js": ["jquery-2.1.1.min.js", "filmin.js"]
+     }
+   ],
+   "background": {
+     "scripts": ["jquery-2.1.1.min.js", "bg_rotten.js"],
+     "persistent": false
+   },
+   "permissions": [ "http://api.rottentomatoes.com/api/public/v1.0/*"]
+}
